@@ -3,9 +3,7 @@ import path from 'path'
 import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
 import cors from 'cors'
-
-// import the router from your routes file
-
+import roomsRouter from './routes/rooms.js'
 
 dotenv.config()
 
@@ -24,8 +22,7 @@ else if (process.env.NODE_ENV === 'production') {
     app.use(express.static('public'))
 }
 
-// specify the api path for the server to use
-
+app.use('/', roomsRouter)
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>
