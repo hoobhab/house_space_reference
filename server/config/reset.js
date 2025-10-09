@@ -4,13 +4,13 @@ import roomData from '../data/rooms.js'
 
 const createRoomsTable = async () => {
     const createTableQuery = `
-        DROP TABLE IF TABLE EXISTS rooms;
+        DROP TABLE IF EXISTS rooms;
 
         CREATE TABLE IF NOT EXISTS rooms (
             id SERIAL PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
-            purpose VARCHAR(255) NOT NULL,
-            furniture VARCHAR(255) NOT NULL
+            purpose TEXT NOT NULL,
+            furniture TEXT NOT NULL
         )
     `
 
