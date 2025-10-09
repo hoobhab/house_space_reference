@@ -37,7 +37,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-
+<div>
+    <a href="https://www.loom.com/share/4928a4a8a09a40988cdbc5621a3ef78d">
+      <p>UnityGrid Plaza - 9 October 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/4928a4a8a09a40988cdbc5621a3ef78d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4928a4a8a09a40988cdbc5621a3ef78d-d3ac2d3735201be7-full-play.gif">
+    </a>
+  </div>
 
 ## Notes
 
